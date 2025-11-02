@@ -1,17 +1,73 @@
+import Counter from "@/components/Counter/Counter";
 import Image from "next/image";
 
+
+
+
 export default function Home() {
+  // throw new Error()
+
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+
+        <Counter></Counter>
+
+
         <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+          src="https://wallpaperaccess.com/full/4723250.jpg"
+          alt="Nature Wallpaper"
+          width={400}
+          height={250}
+          className="rounded-xl mb-6 object-cover"
+          
         />
+
+       
+        <Image
+          src="https://wallpaperaccess.com/full/4722358.jpg"
+          alt="Nature Landscape"
+          width={400}
+          height={250}
+          className="rounded-xl mb-6 object-cover" 
+          
+        />
+
+       
+        <Image
+          src="https://wallpaperaccess.com/full/2416436.jpg"
+          alt="	Tropical Sunset"
+          width={400}
+          height={250}
+          className="rounded-xl mb-6 object-cover"
+          
+        />
+       
+        <Image
+          src="https://wallpaperaccess.com/full/2416007.jpg"
+          alt="Calm River & Mountains"
+          width={400}
+          height={250}
+          className="rounded-xl mb-6 object-cover"
+          
+        />
+        <Image
+          src="https://wallpaperaccess.com/full/31193.jpg"
+          alt="Ocean Sunrise Horizon"
+          width={400}
+          height={250}
+          className="rounded-xl mb-6 object-cover"
+          
+        />
+        <Image
+          src="https://wallpaperaccess.com/full/533108.jpg"
+          alt="Forest Path in Autumn"
+          width={400}
+          height={250}
+          className="rounded-xl mb-6 object-cover"
+          
+        />
+       
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
             To get started, edit the page.js file.
@@ -61,5 +117,7 @@ export default function Home() {
         </div>
       </main>
     </div>
+
   );
 }
+
