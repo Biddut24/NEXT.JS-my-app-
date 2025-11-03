@@ -1,5 +1,6 @@
 import Counter from "@/components/Counter/Counter";
 import Image from "next/image";
+import bard from "@/assets/images/images.jpeg"
 
 
 
@@ -14,6 +15,14 @@ export default function Home() {
         <Counter></Counter>
 
 
+        <Image
+          src={bard}
+          alt="Nature Wallpaper"
+          width={400}
+          height={250}
+          className="rounded-xl mb-6 object-cover"
+          
+        />
         <Image
           src="https://wallpaperaccess.com/full/4723250.jpg"
           alt="Nature Wallpaper"
